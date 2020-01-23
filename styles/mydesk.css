@@ -1,0 +1,16 @@
+body {
+  background-color: whitesmoke;
+}
+circle {
+  fill: snow;
+  opacity: 0.5;
+}
+@keyframes shadow-pulse
+{
+  from {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  to {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}

@@ -1,10 +1,71 @@
 body {
   background-color: whitesmoke;
 }
-circle {
-  fill: snow;
-  opacity: 0.5;
+
+.img-container {
+  position: relative;
+  text-align: center;
 }
+
+.desk {
+  max-width: 1100px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: snow;
+  opacity: 70%;
+  animation: shadow-pulse 1s 3;
+}
+
+#lg {
+  top: 15%;
+  left: 46%;
+}
+
+#acer {
+  top: 38%;
+  left: 47%;
+}
+
+#headphones {
+  top: 55%;
+  left: 24%;
+}
+
+#keyboard {
+  top: 67%;
+  left: 35%;
+}
+
+#mouse {
+  top: 71%;
+  left: 50%;
+}
+
+#pc {
+  top: 63%;
+  left: 80.25%;
+}
+
+#earphones {
+  top: 69%;
+  left: 68%;
+}
+
+#laptop {
+  top: 80%;
+  left: 73%;
+}
+
+.dot:hover {
+  background-color: black;
+  animation: shadow-pulse 1s 0;
+}
+
 @keyframes shadow-pulse
 {
   from {
